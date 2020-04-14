@@ -1,0 +1,50 @@
+{
+  "pool": {
+    "epoch-update": {
+      "title": "Informationen zum Epoch {{epoch}}",
+      "minted-blocks": {
+        "title": "Geprägte Blöcke",
+        "value": "{{minted}} von {{assigned}}"
+      },
+      "delegator-rewards": {
+        "title": "Belohnung für Delegierer",
+        "value": "{{reward, ada}} ADA"
+      },
+      "ros": {
+        "title": "ROS",
+        "value": "{{ros, percentage}}"
+      },
+      "block-stake": {
+        "title": "Gesamter Stake",
+        "value": "{{stake, ada}} ADA"
+      }
+    }
+  },
+  "pooltool": {
+    "error": {
+      "connection-error": "Pool Tool kann nicht erreicht werden um die Informationen abzufragen.",
+      "unknown-epoch": "Informationen für den angegebenen Epoch können nicht gefunden werden."
+    }
+  },
+  "command": {
+    "success": {
+      "title": "Erfolgreich!",
+      "default-locale": "Sprachencode '{{locale}}' wurde erfolgreich als Default gesetzt.",
+      "default-stake-pool-id": "Stakepool mit ID '{{id}}' wurde erfolgreich als Default gesetzt.",
+      "epoch-update-channel": "Der angegebene Kanal erhält von jetzt an Aktualisierungen in der Sprache '{{locale}}'.",
+      "prefix-update": "Der neue Präfix für Befehle ist '{{prefix}}'."
+    },
+    "error": {
+      "title": "Befehl konnte nicht ausgeführt werden!",
+      "locale-missing": "Dieser Befehl erwartet einen Sprachencode (z.B.: 'en' oder 'de').",
+      "locale-unknown": "Der angegebene Sprachencode '{{locale}}' wird nicht unterstützt.",
+      "stake-pool-id-missing": "Dieser Befehl erwartet die ID des Stakepools als Argument.",
+      "stake-pool-id-wrong": "Die ID des Stakepools muss genau 64 Zeichen lang sein.",
+      "channel-missing": "Dieser Befehl erwartet einen Kanal als Argument.",
+      "channel-wrong": "Dieser Befehl erwartet einen Kanal als erstes Argument (z.B.: #Allgemein).",
+      "epoch-number-missing": "Sie müssen die Nummer des Epochs angeben.",
+      "default-stake-pool-not-set": "Sie müssen einen Stakepool als Default setzen bevor Sie diesen Befehl verwenden können.",
+      "prefix-missing": "Sie müssen den neuen Präfix für Befehle spezifizieren."
+    }
+  }
+}

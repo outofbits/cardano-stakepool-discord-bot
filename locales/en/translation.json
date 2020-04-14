@@ -1,0 +1,50 @@
+{
+  "pool": {
+    "epoch-update": {
+      "title": "Details for Epoch {{epoch}}",
+      "minted-blocks": {
+        "title": "Minted Blocks",
+        "value": "{{minted}} of {{assigned}}"
+      },
+      "delegator-rewards": {
+        "title": "Rewards for Delegators",
+        "value": "{{reward, ada}} ADA"
+      },
+      "ros": {
+        "title": "ROS",
+        "value": "{{ros, percentage}}"
+      },
+      "block-stake": {
+        "title": "Total Stake",
+        "value": "{{stake, ada}} ADA"
+      }
+    }
+  },
+  "pooltool": {
+    "error": {
+      "connection-error": "Pool Tool cannot be reached to gather the details.",
+      "unknown-epoch": "Details for given epoch could not be fetched."
+    }
+  },
+  "command": {
+    "success": {
+      "title": "Successful!",
+      "default-locale": "Locale '{{locale}}' has been set successfully as default.",
+      "default-stake-pool-id": "Stakepool with ID '{{id}}' has successfully be set as default.",
+      "epoch-update-channel": "The given channel will be used from now on for updates in the language {{locale}}'.",
+      "prefix-update": "The new prefix for commands is '{{prefix}}'."
+    },
+    "error": {
+      "title": "Command could not be performed!",
+      "locale-missing": "This command expects a locale code as an argument. (e.g.: 'en' or 'de').",
+      "locale-unknown": "The given locale '{{locale}}' isn't supported.",
+      "stake-pool-id-missing": "his command expects the stakepool ID as an argument.",
+      "stake-pool-id-wrong": "A stake pool ID must be exactly 64 characters long.",
+      "channel-missing": "This command expects two arguments <channel> <locale>.",
+      "channel-wrong": "The first argument must be a channel (e.g. #general).",
+      "epoch-number-missing": "You must specify the number of the epoch for which the details shall be fetched.",
+      "default-stake-pool-not-set": "You must specify the default stakepool for this command.",
+      "prefix-missing": "You must specify the new prefix for commands."
+    }
+  }
+}
